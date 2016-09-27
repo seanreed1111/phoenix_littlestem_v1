@@ -1,0 +1,157 @@
+/
+  Navigation
+  \==========================================
+%nav#menu.navbar.navbar-default.navbar-fixed-top
+  .container
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+<%#       %button.navbar-toggle.collapsed{"data-target"="#bs-example-navbar-collapse-1" "data-toggle"="collapse", type="button"} %>
+  %span.sr-only Toggle navigation
+  %span.icon-bar
+  %span.icon-bar
+  %span.icon-bar
+  = link_to "littleSTEM Books", root_path, class:"navbar-brand"
+  / Collect the nav links, forms, and other content for toggling
+  #bs-example-navbar-collapse-1.collapse.navbar-collapse
+    %ul.nav.navbar-nav.navbar-right
+      %li= link_to "Home", root_path, class:"page-scroll"
+      %li= link_to "About", "#about-section", class:"page-scroll"
+      / <li><haml_loud> link_to "Our Books", "#works-section", class:"page-scroll", target: "_blank"</haml_loud></li>
+      / <li><haml_loud> link_to "Team", "#team-section", class:"page-scroll"</haml_loud></li>
+      %li= link_to "Testimonials", "#testimonials-section", class:"page-scroll"
+      %li= link_to "Donate", "#", class:"page-scroll"
+    / /.navbar-collapse
+  / /.container-fluid
+/ Header
+%header.text-center{:name => "home"}
+  .intro-text
+    %h1.wow.zoomIn
+      %span.brand WELCOME TO littleSTEM BOOKS
+    / <p class="wow fadeInDown" data-wow-delay="600ms">We make science-themed picture books for the littlest readers.</p>
+    .clearfix
+    / <a href="#about-section" class="btn button wow fadeInDown" data-wow-delay="100ms">Find Out More</a> </div>
+  / About Section
+  #about-section.container
+    .row
+      .section-title.text-center.center.wow.fadeInDown
+        %h2 About us
+        %hr/
+      <%# .row.wow.fadeInDown{"data-wow-delay"="200ms"} %>
+        .container
+          .col-xs-12.col-sm-12.col-md-12.col-lg-12
+            .about-text
+              .text-center.center
+                %h3
+                  %span.color WHO WE ARE
+                %p
+                  We are a team that makes beautiful picture
+                  books showing young girls engaged with science
+                  and technology-related themes.
+                %h3
+                  %span.color OUR MISSION
+                %p
+                  We want children to see themselves in the images of the
+                  books they read.
+                %p Donations by supporters and purchases of our books help us fund free picture books for libraries, schools, and after-school organizations.
+                %p
+                  Together, we can help encourage girls to see careers in STEM (science, technology, engineering, and math) as goals and options from a young age.
+                %h3
+                  %span.color OUR PHILOSOPHY
+                %p We believe books help show children who they can become.
+                %p
+                  We want the little ones who enjoy our books
+                  to self-identify as kids who like science and
+                  math, so they'll keep STEM-related careers in
+                  their minds in the future.
+                %p
+                  We believe this is one way to
+                  help young girls and boys see
+                  that STEM is for everyone.
+            .book-image
+              .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                = image_tag "cover.jpg", class: "img-responsive center-block"
+  / Testimonials Section
+  #testimonials-section.text-center
+    .container.test
+      #tell-me-more-section.section-title.wow.fadeInDown
+        %h2#tell-me-more-section Tell Me More About Your New Book
+        .container
+          %p
+          %h3
+            %span
+              %em Serena Sees Her Footprints on the Moon
+            is about a young girl who imagines a fun trip to the Moon, where she plays with some of the objects left
+            behind up there by the Apollo astronauts.
+        %hr/
+        %h2 Praise for "Serena"
+        .container
+          %p
+          %h3 We read the book as family and we loved it. The callbacks to Serena seeing her footprints on the moon made a real impression on my 3 (almost 4) year old daughter.
+          %p
+          %h3 The next morning she said 'Daddy, did you know there are footprints on the moon?'' Good work!" - Robert M.
+        %hr/
+        .container
+          %p
+          %h3 Happy to report that I learned some extra things about the moon program by reading Serena sees her foot prints! I hope this is a format you plan to repeat for other books in the STEM space. - Gavin H.
+        %hr/
+        .container
+          %p
+          %h3 Such a lovely book.  Pure poetry.  The narration is at once elegiac and triumphant.  I love the confidence Serena exudes; she is a wonderful protagonist (a clear role model for women, girls, and POC).
+          %p
+          %h3 I especially liked her assurance that though humans haven’t been on the far side of the Moon, she has been there.
+          %p
+          %h3 I’m confident that readers will be spurred to do more research into the history of the Moon landings (and plans for return) after reading “Serena”! Best wishes with the launch! - Christine R.
+        %hr/
+        .container
+          %p
+          %h3 I absolutely love the repetition. I think it can really be a story whose words echo in children’s minds as they grow up. I also like the motif of the permanence of the little girl’s accomplishments.
+          %p
+          %h3 Even if nobody else can acknowledge Serena’s accomplishments, she sees the evidence of them herself and can rest assured that they cannot be taken from her. - Emma. G.
+        %hr/
+        .container
+          %p
+          %h3 I think this would make a great story for younger girls. I like how it not only inspires girls to reach for the things they didn’t know possible, but also tells them a lot bit about what the moon is like.
+          %p
+          %h3 This is definitely a great way to get get girls interested in STEM fields from a young age. And I like the cover art :) - Alli. B.
+          %hr/
+        .container
+          %p
+          %h3 This story is really cool! I can see Serena's excitement about her footprints on the especially through your use of repetition. The simplicity of the facts translates well and paints very vivid pictures. I didn't have to think very hard to see her on the moon and exploring and making these discoveries. Short and sweet and too the point, I can definitely see this being part of circle time in Pre-K and Kindergarten classrooms. - Keith M.
+        %hr/
+        .clearfix
+      / Donate Section
+      #donate
+        .container
+          .section-title.text-center.wow.fadeInDown
+            %h2
+              Donate to
+              = succeed "STEM" do
+                %span little
+            = link_to "Yes, I Support littleSTEM's Mission!", "https://www.fracturedatlas.org/site/fiscal/profile?id=12967", class: "btn", target: "_blank"
+            %h3 Thank you for your support.
+            %h3 Your contribution helps give more books for free to little readers everywhere!
+            .clearfix
+      / Buy our Book Section
+      %div{:id => "contact-section buy-book"}
+        .container
+          .section-title.text-center.wow.fadeInDown
+            %h2 Get your copies now!
+            = link_to "Buy Books Here", "https://www.indiegogo.com/projects/serena-sees-her-footprints-on-the-moon-a-new-book#/", class: "btn", target: "_blank"
+            .clearfix
+      / Buy our itunes Section
+      %div{:id => "contact-section buy-book"}
+        .container
+          .section-title.text-center.wow.fadeInDown
+            %h3
+              Check out our e-book for FREE on
+              = succeed "Tunes!" do
+                %span i
+            = link_to image_tag("app-store-icon.svg"), "https://itun.es/us/CnX6bb.l", target: "_blank", class: "app-store-link"
+            %hr/
+            .clearfix
+      #footer.text-center
+        .container
+          = link_to "Contact Us", "mailto:info@littlestembooks.org"
+          %p Copyright © 2016 littleSTEM Books, a 501(c)3 non-profit organization based in the U.S.A. All rights reserved.
+          %p Little STEM picture books can change children's lives forever.
+          %p FracturedAtlas handles donations-processing for over 58,000 arts-related projects, including littleSTEM Books.

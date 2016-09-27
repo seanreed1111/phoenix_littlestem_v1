@@ -1,0 +1,151 @@
+
+
+<!-- Header -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <h1 class="wow zoomIn"><span class="brand">WELCOME TO littleSTEM BOOKS</span></h1>
+<!--     <p class="wow fadeInDown" data-wow-delay="600ms">We make science-themed picture books for the littlest readers.</p> -->
+    <div class="clearfix"></div>
+<!--     <a href="#about-section" class="btn button wow fadeInDown" data-wow-delay="100ms">Find Out More</a> </div> -->
+</header>
+  </div>
+
+<!-- About Section -->
+
+<div id="about-section" class="container">
+  <div class="row">
+    <div class="section-title text-center center wow fadeInDown">
+        <h2>About us</h2>
+        <hr>
+    </div>
+
+    <div class="row wow fadeInDown" data-wow-delay="200ms">
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
+          <div class="about-text">
+            <div class="text-center center">
+              <h3><span class="color">WHO WE ARE</span></h3>
+              <p>We are a team that makes beautiful picture
+                      books showing young girls engaged with science
+                      and technology-related themes.
+              </p>
+              <h3><span class="color">OUR MISSION</span></h3>
+              <p>We want children to see themselves in the images of the 
+              books they read.</p><p>Donations by supporters and purchases of our books help us fund free picture books for libraries, schools, and after-school organizations.</p><p>Together, we can help encourage girls to see careers in STEM (science, technology, engineering, and math) as goals and options from a young age. 
+              </p>
+              <h3><span class="color">OUR PHILOSOPHY</span></h3>
+              <p>We believe books help show children who they can become. </p>
+              <p>We want the little ones who enjoy our books
+                      to self-identify as kids who like science and
+                      math, so they'll keep STEM-related careers in
+                      their minds in the future. 
+              </p>
+              <p>We believe this is one way to
+                      help young girls and boys see
+                      that STEM is for everyone.
+              </p>
+            </div>
+          </div>
+          <div class="book-image">
+            <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
+<%#               <%= image_tag "cover.jpg", class: "img-responsive center-block" %> %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials Section -->
+<div id="testimonials-section" class="text-center">
+  <div class="container test">
+    <div class="section-title wow fadeInDown" id="tell-me-more-section">
+    <h2 id="tell-me-more-section">Tell Me More About Your New Book</h2>
+          <div class="container">
+            <p><h3>
+              <span><em>Serena Sees Her Footprints on the Moon</em></span> is about a young girl who imagines a fun trip to the Moon, where she plays with some of the objects left
+              behind up there by the Apollo astronauts. 
+            </h3></p>
+
+          </div>
+      <hr>
+      <h2>Praise for "Serena"</h2>
+      <div class="container">
+      <p><h3>We read the book as family and we loved it. The callbacks to Serena seeing her footprints on the moon made a real impression on my 3 (almost 4) year old daughter.</h3></p> 
+      <p><h3>The next morning she said 'Daddy, did you know there are footprints on the moon?'' Good work!" - Robert M.</h3></p>
+      </div>
+      <hr>
+      <div class="container">
+      <p><h3>Happy to report that I learned some extra things about the moon program by reading Serena sees her foot prints! I hope this is a format you plan to repeat for other books in the STEM space. - Gavin H.</h3></p>
+      </div>
+      <hr>
+      <div class="container">
+      <p><h3>Such a lovely book.  Pure poetry.  The narration is at once elegiac and triumphant.  I love the confidence Serena exudes; she is a wonderful protagonist (a clear role model for women, girls, and POC).</h3></p>
+      <p><h3>I especially liked her assurance that though humans haven’t been on the far side of the Moon, she has been there.  </h3></p>
+      <p><h3>I’m confident that readers will be spurred to do more research into the history of the Moon landings (and plans for return) after reading “Serena”! Best wishes with the launch! - Christine R.</h3></p>
+      </div>
+      <hr>
+      <div class="container">
+      <p><h3>I absolutely love the repetition. I think it can really be a story whose words echo in children’s minds as they grow up. I also like the motif of the permanence of the little girl’s accomplishments.</h3></p>
+      <p><h3>Even if nobody else can acknowledge Serena’s accomplishments, she sees the evidence of them herself and can rest assured that they cannot be taken from her. - Emma. G.</h3></p>
+      </div>
+      <hr>
+      <div class="container">
+      <p><h3>I think this would make a great story for younger girls. I like how it not only inspires girls to reach for the things they didn’t know possible, but also tells them a lot bit about what the moon is like. </h3></p>
+      <p><h3>This is definitely a great way to get get girls interested in STEM fields from a young age. And I like the cover art :) - Alli. B.</h3></p>
+      <hr>
+      </div>
+      <div class="container">
+      <p><h3>This story is really cool! I can see Serena's excitement about her footprints on the especially through your use of repetition. The simplicity of the facts translates well and paints very vivid pictures. I didn't have to think very hard to see her on the moon and exploring and making these discoveries. Short and sweet and too the point, I can definitely see this being part of circle time in Pre-K and Kindergarten classrooms. - Keith M.</h3></p>
+      
+      </div>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+<!-- Donate Section -->
+<div id="donate" >
+  <div class="container">
+    <div class="section-title text-center wow fadeInDown">
+      <h2>Donate to <span>little</span>STEM Books</h2>
+<%#       <%= link_to "Yes, I Support littleSTEM's Mission!", "https://www.fracturedatlas.org/site/fiscal/profile?id=12967", class: "btn", target: "_blank" %> %>
+      <h3>Thank you for your support.</h3>
+      <h3>Your contribution helps give more books for free to little readers everywhere!</h3>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Buy our Book Section -->
+<div id="contact-section buy-book" >
+  <div class="container">
+    <div class="section-title text-center wow fadeInDown">
+      <h2>Get your copies now!</h2>
+<%#       <%= link_to "Buy Books Here", "https://www.indiegogo.com/projects/serena-sees-her-footprints-on-the-moon-a-new-book#/", class: "btn", target: "_blank" %> %>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Buy our itunes Section -->
+<div id="contact-section buy-book" >
+  <div class="container">
+    <div class="section-title text-center wow fadeInDown">
+      <h3>Check out our e-book for FREE on <span>i</span>Tunes!</h3>
+<%#       <%= link_to image_tag("app-store-icon.svg"), "https://itun.es/us/CnX6bb.l", target: "_blank", class: "app-store-link" %> %>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+  
+<div id="footer" class="text-center">
+  <div class="container">
+<%#     <%= link_to "Contact Us", "mailto:info@littlestembooks.org" %> %>
+    <p>Copyright &copy; 2016 littleSTEM Books, a 501(c)3 non-profit organization based in the U.S.A. All rights reserved.</p>
+    <p>Little STEM picture books can change children's lives forever.</p>
+    <p>FracturedAtlas handles donations-processing for over 58,000 arts-related projects, including littleSTEM Books.</p>
+  </div>
+</div>

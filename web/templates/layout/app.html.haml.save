@@ -1,0 +1,29 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=edge, chrome=1")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    %meta(name="description" content="littleSTEM Books creates awesome picture books that encourage early interest in science, technology, engineering, and math. We make little STEM Books.")
+    %meta(name="google-site-verification" content="-fSNxJiKqmYoXGQT-GQgb5QmAeub4NRHhRRbClJyRa0")
+    %meta(property="og:type" content="website")
+    %meta(property="og:title" content="little STEM Books | We make awesome picture books for little readers that encourage interest in STEM | little STEM Books")
+    %meta(property="og:description" content="little STEM Books creates awesome picture books that encourage early interest in science, technology, engineering, and math.  We make little STEM Books.")
+    %meta(property="og:url" content="http://www.littlestembooks.org")
+    %meta(property="og:site_name" content="littleSTEM Books")
+
+    %meta(name="HandHeldFriendly" content="true")
+    %meta(name="MobileOptimized" content="width")
+    %title little STEM Books We make awesome picture books for little readers that encourage interest in STEM little STEM Books
+    %link(rel="stylesheet" href='#{static_path(@conn, "/css/app.css")}')
+    %link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin")
+    %link(href="http://www.littlestembooks.org" rel="canonical")
+  %body
+    %h2 Welcome to littleSTEM Books
+    .container
+      %main(role="main")
+        = render @view_module, @view_template, assigns
+
+    %script(src='#{static_path(@conn, "/js/app.js")}')
+
+
